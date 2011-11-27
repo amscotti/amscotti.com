@@ -1,0 +1,155 @@
+body {
+	background:url("../image/header.png") repeat-x scroll left top white;
+}
+
+#self_image {
+	margin-top: 50px;
+}
+
+#self_image img{
+	border: 7px solid white;
+	border-radius: 2px;
+}
+
+#self_name {
+	font: 18px/27px 'ChunkFiveRegular', Arial, sans-serif;
+	font-size: 2em;
+	text-align: justify;
+	color: white;
+	padding-bottom: .2em;
+	margin-top: 10px;
+}
+
+#self_text {
+	font: 18px/27px 'CabinRegular', Arial, sans-serif;
+	font-size: 1.2em;
+	line-height: 1.2em;
+	margin-top: 20px;
+	text-align: left;
+	color: white;
+}
+
+#self_name {
+	color: white;
+	padding-top: 40px;
+}
+
+#main {
+	height: 100%;
+	margin-top: 50px;
+	min-height: 350px;
+}
+
+#intro {
+	margin-top: 65px;
+	
+}
+
+#footer {
+	height: 50px;
+	margin-top: 50px;
+	padding: 25px;
+	clear: both;
+	border-top: 2px solid black;
+}
+
+.header {
+	font: 18px/27px 'ChunkFiveRegular', Arial, sans-serif;
+	font-size: 1.9em;
+	text-align: justify;
+	color: black;
+	padding-bottom: .2em;
+	padding-left: 1em;
+	margin-top: 15px;
+}
+
+.cabin {
+  font: 18px/27px 'CabinRegular',Arial,sans-serif;
+}
+
+.contact {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  font-size: 1.9em;
+}
+
+.header:hover {
+	color: #888;
+}
+
+.expanded {
+	background: url(../image/down_triangle.png) no-repeat 0,0;
+}
+.closed {
+	background: url(../image/rt_triangle.png) no-repeat 0,0;
+}
+
+.text {
+	border-left: 5px solid black;
+	padding: 1.5em 2em;
+	background: #DDD;
+	border-radius: 5px;
+}
+
+.container {
+  overflow: hidden;
+  width: 100%
+}
+
+.text p {
+	font: 18px/27px 'CabinRegular', Arial, sans-serif;
+	margin-bottom: 20px;
+}
+
+.resume {
+  float: left;
+  margin-right: 50px;
+}
+
+.resume p{
+  text-align:center;
+}
+
+label {
+  float: left;
+  width: 120px;
+  font-weight: bold;
+}
+
+#copyright {
+  font-size:70% 
+}
+
+#social a {
+  text-decoration: none;
+}
+
+#lifestream li {
+    background-position: left center;
+    background-repeat: no-repeat;
+    line-height: 1.2em;
+    padding: 5px 3px 5px 25px;
+    margin-bottom: 10px;
+    font: 18px/27px 'CabinRegular', Arial, sans-serif;
+}
+
+.lifestream-twitter {
+    background-image: url("/image/twitter.png");
+}
+
+.lifestream-github {
+    background-image: url("/image/github.png");
+}
+
+.lifestream-wordpress {
+    background-image: url("/image/wordpress.png");
+}
+
+ul li {
+    list-style-type: none;
+}
+
+#contact div {
+   margin-bottom: 5px;
+}
+

@@ -1,0 +1,168 @@
+{
+   "name":"Anthony M. Scotti",
+   "address":{
+      "street":"348 Cabot Street, Apt 2",
+      "city":"Beverly",
+      "state":"MA",
+      "zipcode":"01915"
+   },
+   "phoneNumber":"(978) 712-0005",
+   "email":"anthony.m.scotti@gmail.com",
+   "objective":"I am seeking a position where I can work on improving my skills along with using the skills I have gathered as a software developer. I wish to be challenged intellectually and have the chance for growth.",
+   "experience":[
+      {
+         "name":"Net Atlantic, Inc.",
+         "position":"Software Developer",
+         "startYear":"2009",
+         "address":{
+            "street":"10 Federal Street, Suite 26",
+            "city":"Salem",
+            "state":"MA",
+            "zipcode":"01970"
+         },
+         "overview":"Net Atlantic is an E-mail service provider and web hosting company. They offer software as a service using the Lyris ListManager and StrongMail platforms for e-mail marketing and cPanel for web hosting. Working with clients to develop customize solutions and integration along with consultation to assist with reaching our client's goals.",
+         "task":[
+            "Developed a mobile website for consumers to access their accounts on the go",
+            "Developed ease of use software to help clients",
+            "Add new features, update, and fix bugs of in-house software",
+            "Working with clients for custom solutions and integrations",
+            "Bring in new technology to help workflow within the development team"
+         ]
+      },
+      {
+         "name":"EBSCO Publishing",
+         "position":"Data Analyst",
+         "startYear":"2000",
+         "endYear":"2009",
+         "address":{
+            "street":"10 Estes Street",
+            "city":"Ipswich",
+            "state":"MA",
+            "zipcode":"01938"
+         },
+         "overview":"EBSCO Publishing provides bibliographic, periodical, and full text into a online research database system. EBSCO Publishing sells subscriptions to the research database and products to various schools, libraries and medical facilities around the world.",
+         "task":[
+            "Responsible for quality control for content on the online database",
+            "Develop new applications for in-house processing",
+            "Organizing large data deliveries",
+            "Developed archiving system and maintain archival of data",
+            "Developing queries for relational database systems",
+            "Working with a number of departments on a single project",
+            "Automating out of house processes for faster turn time"
+         ]
+      }
+   ],
+   "education":[
+      {
+         "name":"Salem State University",
+         "location":{
+            "city":"Salem",
+            "state":"MA"
+         },
+         "year_of_graduation":"2007",
+         "degree":"Bachelor of Science - Computer Science with Minor in Mathematics"
+      }
+   ],
+   "certificates":[
+      {
+         "certificate":"Linux/Unix System Administration Certificate",
+         "from":"The O'Reilly School of Technology and The University of Illinois"
+      },
+      {
+         "certificate":".NET Programming Certificate",
+         "from":"The O'Reilly School of Technology and The University of Illinois"
+      }
+   ],
+   "technical_skills":{
+      "knowledgeable":{
+         "Operating Systems":[
+            "CentOS",
+            "Fedora",
+            "Debian",
+            "Ubuntu",
+            "FreeBSD",
+            "OpenBSD",
+            "Windows XP",
+            "Windows 7",
+            "Windows Server 2008",
+            "Mac OS X"
+         ],
+         "public_cloud_services":[
+            "Rackspace Cloud",
+            "Amazon EC2"
+         ],
+         "database_systems":[
+            "MySQL",
+            "SQL Server"
+         ],
+         "languages":[
+            "Groovy",
+            "Ruby",
+            "JavaScript",
+            "Java",
+            "Python",
+            "PHP",
+            "C#",
+            "XSLT"
+         ],
+         "version_control_system":[
+            "SVN",
+            "Git"
+         ]
+      },
+      "experience":{
+         "languages":[
+            "Perl",
+            "TCL",
+            "C++",
+            "Bash"
+         ],
+         "noSQL_database_systems":[
+            "CouchDB",
+            "MongoDB"
+         ],
+         "virtualization_software":[
+            "VMware ESXi",
+            "VirtualBox",
+            "KVM",
+            "XEN"
+         ],
+         "web_framework":[
+            "Rails",
+            "Grails",
+            "Node.js"
+         ],
+         "application_server":[
+            "Nginx",
+            "Cherokee",
+            "Tomcat",
+            "Jetty",
+            "Apache"
+         ]
+      }
+   },
+   "notable_projects":[
+      {
+         "name":"128bitstudios.com - Technical blog",
+         "details":[
+            "Code sample for Groovy, Ruby, Node.js and Python",
+            "Linux and FreeBSD System Admin postings",
+            "Other technical postings and interests"
+         ]
+      },
+      {
+         "name":"Designed and maintained central backup system.",
+         "details":[
+            "Installed FreeBSD 8 with ZFS's RAIDZ (Raid 5) Setup",
+            "Nightly ZFS snapshot for incremental backups",
+            "Offsite back up using Amazon's S3 service"
+         ]
+      },
+      {
+         "name":"Designed web application for tracking and point system, Senior project.",
+         "details":[
+            "Setup Linux server for hosting using Apache, MySQL and PHP"
+         ]
+      }
+   ]
+}

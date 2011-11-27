@@ -1,0 +1,69 @@
+#intro.cabin.grid_12
+  %div I made this site to give people more insight into myself. Part of a job interview is not only to grade skill level but to be able to see if the candidate is a good fit with your current team. This is important for both the interviewer and interviewee. I also feel that a lot of a details about a person is missed in an interview due to the nature of the meeting. I hope this site gives you a better idea of who I am and helps you answer some questions that may not come up in an interview. In the end, it's not just going to help myself but also help you.
+#main.grid_12
+  .header.closed What I'm looking for?
+  .text
+    %p 
+      %strong Someplace where I can grow my skills.
+      I enjoy learning new things and sharing what I know with people who are also interested in learning. I strongly feel that the technology field moves fast, and you must keep learning to be able to keep up with it.
+    %p
+      %strong A relaxed environment.
+      I enjoy working with people that are laid back and into working on projects for the sake of the project and not a deadline. I know there will always be a due date on things but it's how people react to that and work on their projects. In the same sense I would like to work in an environment where developers can be creative and not thought of as just code monkeys. 
+    %p
+      %strong Looking to try new things.
+      One of the saddest things I have to deal with is people unwilling to try something new in fear of [insert silly fear here], be it fear of learning something new, to "I google'ed it and people said bad stuff about it". I want a work for a place that understand the value of new ideas, technology, and methodologies and have faith in its people to use them.
+  .header.closed What I can bring?
+  .text
+    %p
+      %strong I enjoy solving problems.
+      Problems drive me to look for a solution, I often take a divide and conquer approach to be able to solve them. I fall back upon my knowledge but when that doesn't work I'm not afraid to ask for help or find some online resources. Often for tricky problems they stay in my mind for a good amount of time and I still may be thinking about them as I'm dozing off to sleep. 
+    %p
+      %strong Wide range of skill set.
+      I sometimes refer to myself as jack of all trades, master of none. I have a wide range of experience in many different languages for many different tasks. Often intrigued by something new I will set out to learn it. Outside of development, I also have basic Linux/Unix administration skill set. Curiosity drives me to learn new things. After hearing or seeing something I want to gain some basic understanding of it, if not more.
+    %p
+      %strong Learning and new skills.
+      This is a key thing for me, but also beneficial for the team. In past jobs I have been able to bring in new technology and ways of doing things. After learning about Git and using it on my own projects, I was able to show my team the benefit of switching from SVN and adapting a new workflow. After setting up a Jenkins server on my workstation I was able to show my manager the advantages of starting to use a continuous integration server. These changes stem from me learning about these topics and sharing them with my team.
+  .header.closed What I like to do?
+  .text
+    %p Outside of development, I enjoy photography, even though I don't have that much time for it anymore, it's still a passion I hold. I also enjoy traveling. Some of my past trips have taken me to England, Scotland, New Zealand, and Australia. I still have several other places I would like to visit. If travel is part of my job, I'm fully ok with that.
+  .header.closed Social Networks
+  .text
+    #lifestream
+  .header.closed Resume
+  .text
+    .container
+      .resume
+        %p
+          %a{:href => "/resumes/resume.pdf"}
+            %img.self{:height => "100", :src => "image/pdf_icon.png", :width => "100"}/
+        %p PDF
+      .resume
+        %p
+          %a{:href => "/resumes/resume.doc"}
+            %img.self{:height => "100", :src => "image/Word2007Logo.png", :width => "100"}/
+        %p Word Doc
+      .resume
+        %p
+          %a{:href => "/resumes/resume.json"}
+            %img.self{:height => "100", :src => "image/json160.gif", :width => "100"}/
+        %p JSON
+  .header.closed About the technology behind this site
+  .text
+    %p This site is using technologies that I would like to use in my day to day job. This is a Ruby application using the Sinatra framework hosted on Heroku. The templates are in HAML. JQuery is primarily used for the javascript work. The site design was done by myself using 960 Grid System CSS framework (keep in mind I'm far from a designer). The contact form uses Amazon's simple notification service, which pushes a message to a list that contains my e-mail and cell number. I will get an e-mail and text message with the information. This site is a work in progress and I do plan on adding additional features over time. The source for this site can be found on GitHub.
+  .contact.cabin Contact From
+  %div
+    .cabin If you wish to contact me please fill out this form and I will be sent a email with your info.
+    %form#contact{:method => "post", :name => "form"}
+      %div
+        %label Name
+        %input{:type => "text", :id => "name", :name => "name", :required => ""}
+      %div
+        %label Email
+        %input{:type => "email", :id => "email", :name => "email", :required => ""}
+      %div
+        %label Message 
+        %textarea{:id => "message", :name => "message",:rows => "15", :cols => "60", :required => ""}
+      %div
+        %input{:type=>"submit", :value=>"Send"}
+        %input{:type=>"reset", :value=>"Clear"}
+      #status.cabin

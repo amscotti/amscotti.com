@@ -35,23 +35,25 @@
       .resume
         %p
           %a{:href => "/resumes/resume.pdf"}
-            %img.self{:height => "100", :src => "image/pdf_icon.png", :width => "100"}/
+            %img.self{:height => "100", :src => "image/pdf_icon.png", :alt => "", :width => "100"}
         %p PDF
       .resume
         %p
           %a{:href => "/resumes/resume.doc"}
-            %img.self{:height => "100", :src => "image/Word2007Logo.png", :width => "100"}/
+            %img.self{:height => "100", :src => "image/Word2007Logo.png", :alt => "", :width => "100"}
         %p Word Doc
       .resume
         %p
           %a{:href => "/resumes/resume.json"}
-            %img.self{:height => "100", :src => "image/json160.gif", :width => "100"}/
+            %img.self{:height => "100", :src => "image/json160.gif", :alt => "", :width => "100"}
         %p JSON
   .header.closed About the technology behind this site
   .text
-    %p This site is using technologies that I would like to use in my day to day job. This is a Ruby application using the Sinatra framework hosted on Heroku. The templates are in HAML. JQuery is primarily used for the javascript work. The site design was done by myself using 960 Grid System CSS framework (keep in mind I'm far from a designer). The contact form uses Amazon's simple notification service, which pushes a message to a list that contains my e-mail and cell number. I will get an e-mail and text message with the information. This site is a work in progress and I do plan on adding additional features over time. The source for this site can be found on GitHub.
+    %p<
+    This site is using technologies that I would like to use in my day to day job. This is a Ruby application using the Sinatra framework hosted on Heroku. The templates are in HAML. JQuery is primarily used for the javascript work. The site design was done by myself using 960 Grid System CSS framework (keep in mind I'm far from a designer). The contact form uses Amazon's simple notification service, which pushes a message to a list that contains my e-mail and cell number. I will get an e-mail and text message with the information. This site is a work in progress and I do plan on adding additional features over time. The source for this site can be found on GitHub
+    %a{:href => "https://github.com/amscotti/amscotti.com"} here.
   .contact.cabin Contact Form
-  %div
+  #form
     .cabin If you wish to contact me please fill out this form and I will be sent an email with your info.
     %form#contact{:method => "post", :name => "form"}
       %div
@@ -66,4 +68,4 @@
       %div
         %input{:type=>"submit", :value=>"Send"}
         %input{:type=>"reset", :value=>"Clear"}
-      #status.cabin
+  #status.cabin

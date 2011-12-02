@@ -28,11 +28,13 @@ $(function() {
     $.post("/contact", $("#contact").serialize(),
       function(data) {
         if(data.status === "ok"){
-            $("#status").append("Message sent!");
-            $("#status").show("slow");
-            $("#contact").each(function(){
-                this.reset();
+            $("#status").text("Thank you!");
+            $(".contact").fadeOut();
+            $("#form").fadeOut(function(){  
+              $("#status").addClass("contact")
+              $("#status").fadeIn("slow");
             });
+            $("#contact").remove();
       } else {
         $("#status").append("Error, message not sent!");
         $("#status").show("slow");

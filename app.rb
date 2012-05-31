@@ -9,6 +9,14 @@ configure do
   set :topic_arn, ENV['TOPIC_ARN']
 end
 
+configure :development, :test do
+  @assetsPath = ""
+end
+
+configure :production do
+  @assetsPath = "http://assets.amscotti.com/public"
+end
+
 not_found do
   haml "404".to_sym
 end

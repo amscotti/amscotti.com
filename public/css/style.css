@@ -1,5 +1,5 @@
 body {
-	background:url("../image/header.png") repeat-x scroll left top white;
+	background:url('../image/header.png') repeat-x scroll left top white;
 }
 
 #self_image {
@@ -78,10 +78,10 @@ body {
 }
 
 .expanded {
-	background: url(../image/down_triangle.png) no-repeat 0,0;
+	background: url('../image/down_triangle.png') no-repeat 0,0;
 }
 .closed {
-	background: url(../image/rt_triangle.png) no-repeat 0,0;
+	background: url('../image/rt_triangle.png') no-repeat 0,0;
 }
 
 .text {
@@ -134,15 +134,15 @@ label {
 }
 
 .lifestream-twitter {
-    background-image: url("/image/twitter.png");
+    background-image: url('../image/twitter.png');
 }
 
 .lifestream-github {
-    background-image: url("/image/github.png");
+    background-image: url('../image/github.png');
 }
 
 .lifestream-wordpress {
-    background-image: url("/image/wordpress.png");
+    background-image: url('../image/wordpress.png');
 }
 
 ul li {

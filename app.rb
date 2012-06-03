@@ -10,11 +10,11 @@ configure do
 end
 
 configure :development, :test do
-  @assetsPath = ""
+  set :assetsPath, ""
 end
 
 configure :production do
-  @assetsPath = "http://assets.amscotti.com/public"
+  set :assetsPath, "http://assets.amscotti.com/public"
 end
 
 not_found do
